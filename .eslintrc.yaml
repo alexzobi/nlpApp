@@ -1,0 +1,11 @@
+parser: babel-eslint
+rules:
+  react/forbid-prop-types: 0
+  jsx-a11y/anchor-is-valid: 0
+  import/no-extraneous-dependencies: 0
+  react/no-array-index-key: 0
+  react/no-unescaped-entities: 0
+  # To be fixed
+  flowtype/require-valid-file-annotation: 0
+  # Doesn't work with the way nrn-mobile-app use propTypes
+  react/no-typos: 0
